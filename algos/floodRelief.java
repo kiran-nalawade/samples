@@ -1,4 +1,15 @@
-package test;
+//https://www.cs.duke.edu/csed/algoprobs/floodrelief.html
+
+/* 
+Problem Statement
+
+Global warming has caused your home town to receive far more rain than usual, and it is in danger of becoming flooded. You have been put in charge of buying and installing pumps that will carry away the water. There is no limit on how much water a pump can handle, but they must be placed correctly so that all the water will flow into a pump, with no lakes or even puddles left over. The pumps are also expensive, so you must determine the minimum number that need to be bought.
+You are given a String[] heights. This is a rectangular grid representing the height of each square meter of your town. It contains only lowercase letters ('a' - 'z'), with 'a' meaning low ground and 'z' meaning high ground. Water flows from a cell to every cell that shares an edge and is of equal or lower height. The town is surrounded by high mountains on all sides, so water cannot flow off the map. You must return the minimum number of pumps that can be placed to ensure that all rain will eventually flow to some pump.
+
+*/
+
+
+
 
 import java.util.Scanner;
 
@@ -79,45 +90,3 @@ public class floodrelief {
 		
 	}
 }
-
-5
-5 5
-ccccc
-cbbbc
-cbabc
-cbbbc
-ccccc
-4 9
-cbabcbabc
-cbabcbabc
-cbabcbabc
-cbabcbabc
-2 2
-ab
-ba
-2 4
-cccc
-cccc
-11 11
-ccccccccccc
-caaaaaaaaac
-caaaaaaaaac
-caazpppzaac
-caapdddpaac
-caapdddpaac
-caapdddpaac
-caazpppzaac
-caaaaaaaaac
-caaaaaaaaac
-ccccccccccc
-
-Case #1
-1
-Case #2
-2
-Case #3
-2
-Case #4
-1
-Case #5
-2
